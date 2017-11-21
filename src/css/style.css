@@ -48,11 +48,14 @@ body {
     align-items: center;
     width: 50px;
     height: 50px;
-    bottom: 100px; }
+    bottom: 100px;
+    z-index: 99;
+    cursor: pointer; }
   .menu-page .top-menus {
     position: absolute;
     top: 20px;
-    right: 20px; }
+    right: 20px;
+    z-index: 99; }
     .menu-page .top-menus a {
       text-decoration: none; }
   .menu-page .menu-ic {
@@ -66,6 +69,10 @@ body {
     margin: 0px 2px;
     width: 50px;
     height: 50px; }
+  .menu-page .lang-ic {
+    font-size: 14px;
+    padding-top: 6px;
+    padding-bottom: 0px; }
   .menu-page .abt-container {
     margin: auto; }
     .menu-page .abt-container .grid {

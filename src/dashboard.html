@@ -13,14 +13,15 @@
 
 <body>
     <div class="menu-page">
-        <a href="/"><i class="icon ion-android-arrow-back back-ic"></i></a>
+        <a onclick="goBack()"><i class="icon ion-android-arrow-back back-ic"></i></a>
         <div class="top-menus">
             <a href="/"><i class="icon ion-ios-home-outline menu-ic"></i></a>
             <a href="/dashboard.html"><i class="icon ion-grid menu-ic"></i></a>
+            <a href="/dashboard.html"><span class="menu-ic lang-ic">AR</span></a>
         </div>
         <div class="flex-container">
             <div class="container abt-container">
-                <div class="row">
+                <div class="row m-1">
                     <div class="col-sm-4 text-center pt-3 pr-5">
                         <img src="/assets/logo_ar.png" height="250" class="mx-auto" />
                         <p class="mt-3 pt-3" style="color:#fff;text-align:justify;font-size:12px;">
@@ -32,13 +33,13 @@
                     <div class="col-sm-8 mt-5">
                         <div class="row mb-3">
                             <div class="col-sm-6">
-                                <div class="grid">
+                                <div class="grid mb-3">
                                     <span class="grid-label pl-3" id="ongrid-label">ON GRID</span>
                                     <img src="/assets/ongrid.png" width="70%" class="mx-auto" />
                                 </div>
                             </div>
                             <div class="col-sm-6">
-                                <div class="grid">
+                                <div class="grid mb-3">
                                     <span class="grid-label pl-3" id="offgrid-label">OFF GRID</span>
                                     <img src="/assets/offgrid.png" width="70%" class="mx-auto" />
                                 </div>
@@ -46,13 +47,13 @@
                         </div>
                         <div class="row mt-5">
                             <div class="col-sm-6">
-                                <div class="grid">
+                                <div class="grid mb-3">
                                     <span class="grid-label pl-3" id="outdoor-label">OUTDOOR LIGHTING</span>
                                     <img src="/assets/outdoor.png" width="70%" class="mx-auto pt-3" />
                                 </div>
                             </div>
                             <div class="col-sm-6">
-                                <div class="grid">
+                                <div class="grid mb-3">
                                     <span class="grid-label pl-3" id="retro-label">RETROFIT LED</span>
                                     <img src="/assets/retro.png" width="70%" class="mx-auto pt-0" />
                                 </div>
@@ -66,6 +67,7 @@
     <script src="/js/jquery.min.js"></script>
     <script src="/js/tether.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/scripts.js"></script>
 </body>
 
 </html>
