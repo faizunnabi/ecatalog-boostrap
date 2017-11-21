@@ -1,2 +1,115 @@
+html,
 body {
-  background: blue; }
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato"; }
+
+#ongrid-label {
+  background: #0c858d; }
+
+#offgrid-label {
+  background: #8d0c4c; }
+
+#outdoor-label {
+  background: #004899; }
+
+#retro-label {
+  background: #829900; }
+
+.flex-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  overflow-y: auto; }
+
+.welcome-page {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: url(../assets/bg1.png) no-repeat top left;
+  background-size: cover; }
+
+.menu-page {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: url(../assets/bg_home.png) no-repeat top left;
+  background-size: cover; }
+  .menu-page .back-ic {
+    color: #fff;
+    font-size: 24px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 15px 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    bottom: 100px; }
+  .menu-page .top-menus {
+    position: absolute;
+    top: 20px;
+    right: 20px; }
+    .menu-page .top-menus a {
+      text-decoration: none; }
+  .menu-page .menu-ic {
+    color: #fff;
+    font-size: 24px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 15px 15px;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    margin: 0px 2px;
+    width: 50px;
+    height: 50px; }
+  .menu-page .abt-container {
+    margin: auto; }
+    .menu-page .abt-container .grid {
+      display: flex;
+      align-items: center;
+      width: 85%;
+      height: 200px;
+      margin: auto;
+      overflow: hidden;
+      border: 1px #fff solid;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4); }
+      .menu-page .abt-container .grid .grid-label {
+        padding: 3px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 12px;
+        display: block;
+        position: absolute;
+        left: 20%;
+        top: -10px;
+        width: 50%;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px; }
+      .menu-page .abt-container .grid .grid-label:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -20px;
+        z-index: -99;
+        width: 0;
+        height: 0;
+        border: 10px transparent solid;
+        border-bottom-color: #025156;
+        border-right-color: #025156; }
+      .menu-page .abt-container .grid a {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        color: #222222;
+        text-decoration: none; }
+        .menu-page .abt-container .grid a h3 {
+          width: 100%;
+          text-align: center; }
