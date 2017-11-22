@@ -8,13 +8,20 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,800">
     <link rel='stylesheet' href="/css/ionicons.css">
     <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/pace.css">
+    <link rel="stylesheet" href="/css/animate.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
     <div class="welcome-page">
-        <div class="flex-container">
-            <a href="dashboard.html" class="mx-auto d-block">
+        <video autoplay loop muted id="feature-video">
+            <source src="videos/solar.mp4" type="video/mp4">
+            <source src="videos/ester1.webm" type="video/webm">
+            <source src="videos/ester1.ogg" type="video/ogg">
+        </video>
+        <div class="logo_div">
+            <a href="dashboard.html" class="mx-auto d-block wow zoomIn" data-wow-delay="0.2s">
                 <img src="/assets/logo_ar.png" width="180" />
             </a>
         </div>
@@ -22,6 +29,11 @@
     <script src="/js/jquery.min.js"></script>
     <script src="/js/tether.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/pace.js"></script>
+    <script src="/js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>

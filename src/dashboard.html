@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,800">
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel='stylesheet' href="/css/ionicons.css">
+    <link rel="stylesheet" href="/css/animate.css">
+    <link rel="stylesheet" href="/css/pace.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
@@ -32,15 +34,15 @@
                     </div>
                     <div class="col-sm-8 mt-5">
                         <div class="row mb-3">
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 wow fadeInLeft">
                                 <a href="/ongrid.html">
-                                    <div class="grid mb-3">
+                                    <div class="grid mb-3" data-wow-delay="0.2s">
                                         <span class="grid-label pl-3" id="ongrid-label">ON GRID</span>
                                         <img src="/assets/ongrid.png" width="70%" class="mx-auto" />
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 wow fadeInLeft" data-wow-delay="0.4s">
                                 <a href="/offgrid.html">
                                     <div class="grid mb-3">
                                         <span class="grid-label pl-3" id="offgrid-label">OFF GRID</span>
@@ -50,7 +52,7 @@
                             </div>
                         </div>
                         <div class="row mt-5">
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 wow fadeInLeft" data-wow-delay="0.6s">
                                 <a href="#">
                                     <div class="grid mb-3">
                                         <span class="grid-label pl-3" id="outdoor-label">OUTDOOR LIGHTING</span>
@@ -58,7 +60,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 wow fadeInLeft" data-wow-delay="0.8s">
                                 <a href="#">
                                     <div class="grid mb-3">
                                         <span class="grid-label pl-3" id="retro-label">RETROFIT LED</span>
@@ -75,7 +77,12 @@
     <script src="/js/jquery.min.js"></script>
     <script src="/js/tether.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/wow.js"></script>
+    <script src="/js/pace.js"></script>
     <script src="/js/scripts.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>
