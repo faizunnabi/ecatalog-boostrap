@@ -33,6 +33,11 @@
     <script src="/js/wow.js"></script>
     <script>
         new WOW().init();
+        $(document).ready(function() {
+            if (localStorage.getItem('lang') != null) {
+                localStorage.setItem('lang', 'EN');
+            }
+        });
     </script>
 </body>
 
